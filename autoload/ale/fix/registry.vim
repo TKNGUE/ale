@@ -12,6 +12,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['help'],
 \       'description': 'Align help tags to the right margin',
 \   },
+\   'pg_format': {
+\       'function': 'ale#fixers#pg_format#Fix',
+\       'suggested_filetypes': ['sql'],
+\       'description': 'Fix SQL query',
+\   },
 \   'autopep8': {
 \       'function': 'ale#fixers#autopep8#Fix',
 \       'suggested_filetypes': ['python'],
